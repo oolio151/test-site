@@ -1,0 +1,19 @@
+@keyframes spin{
+    0%{rotation: 0deg;}
+    25%{rotation: 90deg;}
+    50%{rotation: 180deg;}
+    75%{rotation: 270deg;}
+    100%{rotation: 360deg}
+}
+
+#thing{
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+
+h1 {
+    color: blue;
+}
